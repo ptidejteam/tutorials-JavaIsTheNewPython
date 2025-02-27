@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>JDK 24 Internal</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>jdk.base</name>
+			<type>2</type>
+			<location>/home/guehenyg/babylon/build/linux-x86_64-server-release/jdk/modules/java.base</location>
+		</link>
+		<link>
+			<name>jdk.incubator.code</name>
+			<type>2</type>
+			<location>/home/guehenyg/babylon/build/linux-x86_64-server-release/jdk/modules/jdk.incubator.code</location>
+		</link>
+	</linkedResources>
+</projectDescription>

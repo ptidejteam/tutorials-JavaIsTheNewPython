@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/JDK 24 Internal/jdk.base" sourcepath="/home/guehenyg/babylon/src/java.base/share/classes"/>
+	<classpathentry kind="lib" path="/JDK 24 Internal/jdk.incubator.code" sourcepath="/home/guehenyg/babylon/src/jdk.incubator.code/share/classes"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
