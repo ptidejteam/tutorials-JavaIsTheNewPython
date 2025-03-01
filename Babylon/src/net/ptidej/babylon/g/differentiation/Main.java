@@ -32,10 +32,10 @@ public class Main {
 
 	@CodeReflection
 	public static double f(final double x, final double y) {
-		return x * (-Math.sin(x * y) + y) + 4.0d;
+		return x * (-Math.sin(x * y) + y) * 4.0d;
 	}
 
 	static double df_dx(double x, double y) {
-		return (-Math.sin(x * y) + y - x * Math.cos(x * y) * y);
+		return (-Math.sin(x * y) + y - x * Math.cos(x * y) * y) * 4.0d;
 	}
 }
