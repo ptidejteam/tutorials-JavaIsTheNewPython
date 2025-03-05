@@ -16,12 +16,12 @@ public class Main {
 		final Integer j2 = Integer.valueOf("42");
 		System.out.println(i2 == j2);
 
+		System.out.println(System.identityHashCode(i2));
+		System.out.println(System.identityHashCode(j2));
+
 		final String s1 = "Hello, World!";
 		final String s2 = "Hello, Wordl!";
 		System.out.println(s1 == s2);
-
-		System.out.println(System.identityHashCode(i2));
-		System.out.println(System.identityHashCode(j2));
 
 		final ClassLoader cl1 = Main.class.getClassLoader();
 		final Class<?> c1 = cl1.loadClass("net.ptidej.valhalla.unique.identifiers.Main");
